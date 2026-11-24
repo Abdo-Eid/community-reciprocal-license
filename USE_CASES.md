@@ -1,6 +1,10 @@
-# Real-world use cases for CRL v1.0
+# Real-world use cases for CRL
 
 This guide illustrates how the proposed Community Reciprocal License would apply in realistic software projects. These are hypothetical scenarios, not claims about the actual licensing or conduct of any named company. The [complete license](CRL-1.0.txt) controls. This guide is not an amendment or legal advice; the draft remains pending independent legal review.
+
+## Variant scope
+
+Sections 1–6 below describe the original CRL Standard 1.0. The new [CRL Distribution 1.0](CRL-D-1.0.txt) changes the internal deployment trigger, as illustrated in section 7. Both retain the same commercial restrictions. See [COMPARISON.md](COMPARISON.md).
 
 ## 1. LLM observability and AI monitoring
 
@@ -89,3 +93,17 @@ The deadline applies to each material revision; minor revisions can be grouped o
 5. Are you planning proprietary relicensing or accepting third-party contributions? Check ownership, dependency licenses and separate permissions.
 
 When uncertain, consult the [full CRL v1.0 text](CRL-1.0.txt), the [FAQ](FAQ.md) and qualified legal counsel. This document does not create new permissions or obligations.
+
+## 7. Distribution variant examples
+
+| Scenario | Standard | Distribution |
+| --- | --- | --- |
+| Voice team adds an acoustic-analysis view to its internally deployed debugger | Publish and offer upstream within 30 days | May remain private |
+| Observability team privately deploys a custom ingestion engine | Publish and offer upstream within 30 days | May remain private |
+| Developer publishes a modified fork | Source at first distribution; upstream within 30 days | Same |
+| Organization sends modified binaries to an independent customer under NDA | Distribution triggers sharing | Same, unless controlled-access exception applies |
+| A nonprofit provides a modified tracing dashboard to external invited users for free | Reciprocity triggered by operational deployment | Reciprocity triggered by external offering; source and upstream within 30 days |
+| A paid hosted replay or observability service exposes substantial covered functionality | Authorization required | Same |
+| A previously distributed modification returns to internal-only use | Already-triggered obligations survive | Same; retention period follows CRL-D section 5.2 |
+
+The Distribution variant does not authorize commercial services forbidden by section 4. Incidental backend use and independent integrations remain distinct from offering substantial functionality. See the selected operative license for precise deadlines, exceptions and retention requirements.
