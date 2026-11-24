@@ -1,12 +1,13 @@
 # Frequently asked questions
 
-This FAQ summarizes the proposed CRL v1.0. The [complete license](CRL-1.0.txt) controls.
+This FAQ covers both proposed variants. The selected license text ([Standard](CRL-1.0.txt) or [Distribution](CRL-D-1.0.txt)) controls.
 
 | Activity | Summary |
 | --- | --- |
 | Personal use and private experiments | Allowed |
 | Internal use by commercial companies | Allowed |
-| Internal deployment of modifications | Publish corresponding source and submit upstream within 30 days |
+| Internal deployment of modifications | Standard: publish source and submit upstream within 30 days. Distribution: private internal deployment alone does not trigger disclosure. |
+| Permitted external offering of modifications | Both variants require source sharing and upstream submission; Distribution includes invitation-only external offerings of substantial functionality. |
 | Noncommercial distribution of modifications | Publish source at distribution; submit upstream within 30 days |
 | Commercial SaaS or resale | Separate written authorization required |
 | Independent commercial outputs | Allowed subject to sections 3 and 4 |
@@ -33,3 +34,9 @@ It is source-available, not OSI-approved open source. Its commercial restriction
 
 ## Is it legally validated?
 No. This is a proposed custom license pending independent legal review. Check dependencies, enforceability, jurisdiction and contributor permissions before adoption.
+
+## Can I switch variants?
+Not automatically. Standard is the original unmodified CRL v1.0. Distribution is a separate license requiring authorization from relevant rights holders. Previous grants remain governed by their own terms. See [COMPARISON.md](COMPARISON.md).
+
+## Does CRL-D allow private delivery to a customer?
+Not necessarily. Distribution of modified copies to independent parties, even under confidentiality, triggers reciprocity, subject to the controlled-access exception. Private internal operation is distinct from transferring a copy to a customer. See CRL-D sections 2.7, 3.3 and 5.1.
