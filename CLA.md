@@ -1,6 +1,6 @@
 # Draft Contributor License Agreement (CLA)
 
-**Optional template — pending independent legal review.** Complete the placeholders and obtain affirmative agreement from the contributor and, where required, their employer before relying on it. Merely submitting a contribution required by CRL does not constitute agreement to this separate CLA.
+**Optional template — pending independent legal review.** Complete the placeholders and obtain affirmative agreement from the contributor and, where required, their employer before relying on it. Merely submitting a contribution required by either CRL variant does not constitute agreement to this separate CLA. This optional template can be adapted for projects using Standard or Distribution.
 
 Project: [PROJECT NAME]
 
